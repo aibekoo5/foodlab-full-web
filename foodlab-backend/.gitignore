@@ -1,0 +1,62 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+
+# .IDE specific files
+.idea/
+.vscode/
+
+# Testing and coverage files
+.coverage
+*.coveragerc
+nosetests.xml
+coverage.xml
+*.hypothesis/
+.pytest_cache/
+
+# Database files
+*.sqlite3
+*.db
+
+# FastAPI / Uvicorn server logs
+*.log
+
+# Docker files
+*.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Static files or build artifacts
+/static/
+build/
+dist/
+
+# Configuration and environment files
+*.env
+.env.*
+*.local
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# PyCharm specific files
+.idea/
+
+# Flake8, Black, mypy, and other linter or formatter settings
+tox.ini
+*.flake8
+*.black
+*.mypy
+
+# OS-specific files
+.DS_Store
+Thumbs.db
