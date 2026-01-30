@@ -1,26 +1,10 @@
-"use client"
+import { Suspense } from 'react'
+import SubscriptionsConfirmClient from './SubscriptionsConfirmClient'
 
-import { useEffect } from 'react'
-import { useSearchParams, useRouter } from 'next/navigation'
-
-export default function SubscriptionsConfirmPage() {
-  const search = useSearchParams()
-  const router = useRouter()
-
-  useEffect(() => {
-    const paymentId = search.get('payment_id') || search.get('id')
-    if (paymentId) {
-      router.push(`/student/subscription/pending/${paymentId}`)
-    } else {
-      // fallback
-      router.push('/student/subscription')
-    }
-  }, [search, router])
-
+export default function Page() {
   return (
-    <div className="container mx-auto py-12">
-      <h1 className="text-2xl font-bold">Төлем өңделуде</h1>
-      <p className="mt-4">Сіз бағытталып отырсыз — күте тұрыңыз...</p>
-    </div>
+    <Suspense fallback={<div className="p-10">Жүктелуде...</div>}>
+      <SubscriptionsConfirmClient />
+    </Suspense>
   )
 }
