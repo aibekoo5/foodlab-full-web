@@ -3,6 +3,10 @@
 import { useEffect, useState } from 'react'
 import { subscriptions } from '@/lib/apiClient'
 import { SubscriptionPackage } from '@/lib/types'
+import { useToast } from '@/components/ui/use-toast'
+
+
+export const dynamic = 'force-dynamic';
 
 export default function StudentSubscriptionPage() {
   const [packages, setPackages] = useState<SubscriptionPackage[]>([])
