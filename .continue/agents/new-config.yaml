@@ -1,0 +1,13 @@
+name: My Config
+version: 1.0.0
+schema: v1
+
+models:
+  - name: Continue Cloud
+    provider: continue
+    model: auto
+    apiKey: con-82d7c1de024f0db2f57b107b148dd754bf4a42ba5d77de45dc230081e6d27b2f
+
+  - name: Local Qwen
+    provider: ollama
+    model: qwen2.5-coder:3b

@@ -14,13 +14,13 @@ export function Hero() {
     <section className="relative overflow-hidden bg-gradient-to-br from-primary/5 to-background py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8">
+          <div className="space-y-8 text-center md:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-balance">
               {t.heroTitle}
-              <span className="text-primary block text-5xl">{t.heroTitle2}</span>
+              <span className="text-primary block text-3xl md:text-5xl">{t.heroTitle2}</span>
             </h1>
-            <p className="text-lg text-muted-foreground max-w-lg">{t.heroSubtitle}</p>
-            <div className="flex flex-wrap gap-4">
+            <p className="text-lg text-muted-foreground max-w-lg mx-auto md:mx-0">{t.heroSubtitle}</p>
+            <div className="flex flex-wrap gap-4 justify-center md:justify-start">
               <Link href="#packages">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground gap-2">
                   {t.choosePlan}
@@ -33,7 +33,7 @@ export function Hero() {
                 </Button>
               </Link>
             </div>
-            <div className="flex flex-wrap gap-8 pt-4">
+            <div className="flex flex-wrap gap-8 pt-4 justify-center md:justify-start">
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Users className="h-5 w-5 text-primary" />
                 <span>{t.studentsCount}</span>
