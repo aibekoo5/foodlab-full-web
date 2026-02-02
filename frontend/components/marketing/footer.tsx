@@ -70,17 +70,17 @@ export function Footer() {
             <h4 className="font-semibold mb-4">{t.social}</h4>
             <div className="grid grid-cols-4 md:gap-4">
               <div>
-                <Link href="#" className="flex items-center justify-center w-full py-4 text-white bg-black rounded-lg hover:bg-opacity-90 transition-colors">
-                  <SiInstagram className="h-6 w-6 mr-1" />
+                <Link href="https://www.instagram.com/foodlapp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="flex items-center justify-center w-full py-4 text-white bg-primary rounded-full hover:bg-opacity-90 transition-colors">
+                  <SiInstagram className="h-6 w-6 mr-2" />
                 </Link>
               </div>
               <div>
-                <Link href="#" className="flex items-center justify-center w-full py-4 text-white bg-black rounded-lg hover:bg-opacity-90 transition-colors">
+                <Link href="#" className="flex items-center justify-center w-full py-4 text-white bg-primary rounded-full hover:bg-opacity-90 transition-colors">
                   <SiTiktok className="h-6 w-6 mr-2" />
                 </Link>
               </div>
               <div>
-                <Link href="#" className="flex items-center justify-center w-full py-4 text-white bg-black rounded-lg hover:bg-opacity-90 transition-colors">
+                <Link href="https://www.threads.com/@foodlapp" className="flex items-center justify-center w-full py-4 text-white bg-primary rounded-full hover:bg-opacity-90 transition-colors">
                   <SiThreads className="h-6 w-6 mr-2" />
                 </Link>
               </div>
@@ -94,5 +94,3 @@ export function Footer() {
     </footer>
   )
 }
-
-// dmkf

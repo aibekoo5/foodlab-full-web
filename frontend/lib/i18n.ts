@@ -28,7 +28,7 @@ export const translations = {
 
     // Partner Dinings
     partnersTitle: "Наши партнёры",
-    partnersSubtitle: "Сотрудничаем с лучшими кулинарными провайдерами",
+    partnersSubtitle: "Сотрудничаем с лучшими провайдерами",
     partnerDiningsTitle: "Наши партнёры",
     partnerDiningsSubtitle: "Столовые и кафе на территории кампуса",
 
@@ -124,7 +124,7 @@ export const translations = {
 
     // Partner Dinings
     partnersTitle: "Біздің серіктестер",
-    partnersSubtitle: "Ең үздік аспаздық провайдерлермен ынтымақтастықта",
+    partnersSubtitle: "Ең үздік провайдерлермен ынтымақтастықта",
     partnerDiningsTitle: "Біздің серіктестер",
     partnerDiningsSubtitle: "Кампус аумағындағы асханалар мен кафелер",
 
