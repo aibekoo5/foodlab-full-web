@@ -1,18 +1,16 @@
 import type React from "react"
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { LanguageProvider } from "@/lib/language-context"
-import { UserProvider } from "@/lib/user-context"
-import { Toaster } from "@/components/ui/toaster"
 import "./globals.css"
 
 const _geist = Geist({ subsets: ["latin", "cyrillic"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "FoodLab - Питание в Narxoz",
-  description: "Удобная система питания для студентов университета. Подписки на обеды, QR-заказы, постаматы.",
+  title: "FoodLab — Абонемент арқылы тамақтану",
+  description: "Студенттер, оқушылар және офис жұмысшылары үшін ыңғайлы тамақтану жүйесі. Кезексіз, арзан, дәмді.",
   generator: "v0.app",
   icons: {
     icon: [
@@ -24,18 +22,21 @@ export const metadata: Metadata = {
   },
 }
 
+export const viewport: Viewport = {
+  themeColor: "#9473ff",
+  width: "device-width",
+  initialScale: 1,
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
   return (
-    <html lang="ru">
+    <html lang="kk" className="scroll-smooth">
       <body className="font-sans antialiased">
-        <UserProvider>
-          <LanguageProvider>{children}</LanguageProvider>
-          <Toaster />
-        </UserProvider>
+        <LanguageProvider>{children}</LanguageProvider>
         <Analytics />
       </body>
     </html>
