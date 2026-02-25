@@ -45,7 +45,7 @@ export function Header() {
               className="h-10 w-auto rounded-xl transition-transform duration-300 group-hover:scale-105"
             />
             <span className="text-xl font-bold text-foreground tracking-tight">
-              Food<span className="text-primary">Lab</span>
+              Food<span className="text-primary">Lapp</span>
             </span>
           </Link>
 
