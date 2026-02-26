@@ -72,17 +72,19 @@ export default function ComingSoonPage() {
         </p>
 
         {/* Артқа қайту батырмасы / Кнопка "Назад" */}
-        <button
-          onClick={handleGoBack}
-          className="mt-10 inline-flex items-center gap-3 px-6 py-3 text-white font-medium rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-xl group"
-          style={{ backgroundColor: '#9473ff' }}
-        >
-          <ArrowLeft 
-            size={20} 
-            className="transition-transform duration-300 group-hover:-translate-x-1" 
-          />
-          <span>{language === 'kk' ? 'Артқа қайту' : 'Назад'}</span>
-        </button>
+        <a href="/">
+            <button
+              onClick={handleGoBack}
+              className="mt-10 inline-flex items-center gap-3 px-6 py-3 text-white font-medium rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-xl group"
+              style={{ backgroundColor: '#9473ff' }}
+            >
+              <ArrowLeft 
+                size={20} 
+                className="transition-transform duration-300 group-hover:-translate-x-1" 
+              />
+              <span>{language === 'kk' ? 'Артқа қайту' : 'Назад'}</span>
+            </button>
+        </a>
 
         {/* Ескерту / Примечание */}
         <p className="text-xs text-gray-400 mt-8">
