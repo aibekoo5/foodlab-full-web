@@ -115,7 +115,7 @@ export function Pricing() {
                     </li>
                   ))}
                 </ul>
-                <Link href="https://docs.google.com/forms/d/e/1FAIpQLScMKp91i6JogNAzSl7Za7QH9igVreq4kfooKIi9vw4yzn2LBg/viewform" target="_blank">
+                <Link href="/coming-soon" target="_blank">
                   <Button
                     className={`w-full rounded-xl h-12 font-medium transition-all duration-300 ${
                       plan.popular

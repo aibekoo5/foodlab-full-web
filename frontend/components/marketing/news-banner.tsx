@@ -39,10 +39,12 @@ export function NewsBanner() {
               <p className="text-[#ffffff]/70 leading-relaxed mb-8 max-w-lg">
                 {t.newsDescription}
               </p>
-              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl px-8 h-12 font-medium transition-all duration-300 hover:shadow-lg hover:shadow-primary/25 gap-2">
-                {t.newsLearnMore}
-                <ArrowRight className="h-4 w-4" />
-              </Button>
+              <a href="/coming-soon" target="_blank">
+                <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl px-8 h-12 font-medium transition-all duration-300 hover:shadow-lg hover:shadow-primary/25 gap-2">
+                  {t.newsLearnMore}
+                  <ArrowRight className="h-4 w-4" />
+                </Button>
+              </a>
             </div>
 
             {/* Image */}
