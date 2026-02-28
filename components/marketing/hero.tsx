@@ -94,7 +94,7 @@ export function Hero() {
               <div className="absolute -inset-4 bg-primary/10 rounded-[2rem] rotate-2" />
               <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-primary/10">
                 <img
-                  src="/images/hero-food-plALpgKa.jpg"
+                  src="/images/hero-food-plALpgKa.png"
                   alt="Healthy meal boxes"
                   className="w-full h-auto object-cover aspect-[4/3]"
                 />

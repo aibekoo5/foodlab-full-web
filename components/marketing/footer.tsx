@@ -28,7 +28,7 @@ export function Footer() {
                 className="h-10 w-auto rounded-xl"
               />
               <span className="text-xl font-bold text-foreground">
-                Food<span className="text-primary">Lab</span>
+                Food<span className="text-primary">Lapp</span>
               </span>
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs leading-relaxed mb-6">
@@ -80,7 +80,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="https://wa.me/+77775060775" className="text-muted-foreground hover:text-primary transition-colors">
                   {t.contact}
                 </Link>
               </li>

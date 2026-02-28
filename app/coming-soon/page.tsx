@@ -7,7 +7,6 @@ import { ArrowLeft, Sparkles, Clock } from 'lucide-react';
 import { useLanguage } from "@/lib/language-context"
 import { translations } from "@/lib/i18n"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
-import type { Language } from "@/lib/language-context"
 
 export default function ComingSoonPage() {
   const router = useRouter();
@@ -52,12 +51,12 @@ export default function ComingSoonPage() {
 
         {/* Басты тақырып / Главный заголовок - тек қолданыстағы тілде */}
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">
-          {language === 'kk' ? 'Әлі қолжетімсіз' : 'Скоро появится'}
+          {language === 'kz' ? 'Әлі қолжетімсіз' : 'Скоро появится'}
         </h1>
         
         <p className="text-gray-600 mb-2 text-lg flex items-center justify-center gap-2">
           <Sparkles size={20} className="text-purple-400" />
-          {language === 'kk' ? 'Жақын арада қосылады' : 'В разработке'}
+          {language === 'kz' ? 'Жақын арада қосылады' : 'В разработке'}
           <Sparkles size={20} className="text-purple-400" />
         </p>
         
@@ -66,7 +65,7 @@ export default function ComingSoonPage() {
         
         {/* Қосымша мәлімет / Дополнительная информация */}
         <p className="text-gray-500 mt-8 max-w-md mx-auto">
-          {language === 'kk' 
+          {language === 'kz' 
             ? 'Біз осы бөлімді дайындап жатырмыз. Көп күттірмейміз!' 
             : 'Мы готовим этот раздел для вас. Скоро всё заработает!'}
         </p>
@@ -82,13 +81,13 @@ export default function ComingSoonPage() {
                 size={20} 
                 className="transition-transform duration-300 group-hover:-translate-x-1" 
               />
-              <span>{language === 'kk' ? 'Артқа қайту' : 'Назад'}</span>
+              <span>{language === 'kz' ? 'Артқа қайту' : 'Назад'}</span>
             </button>
         </a>
 
         {/* Ескерту / Примечание */}
         <p className="text-xs text-gray-400 mt-8">
-          {language === 'kk' ? 'Бет әзірлену үстінде' : 'Страница в разработке'}
+          {language === 'kz' ? 'Бет әзірлену үстінде' : 'Страница в разработке'}
         </p>
       </div>
     </div>

@@ -11,8 +11,8 @@ export const translations = {
 
     // Hero
     heroTag: "Питание нового формата",
-    heroTitle: "Foodlab -- это",
-    heroTitle2: "Питание через абонемент",
+    heroTitle: "Foodlapp - это",
+    heroTitle2: "питание через абонемент",
     heroSubtitle: "Комфортное и недорогое питание без очередей в течение месяца из ближайших столовых для студентов и работников",
     choosePlan: "Выбрать пакет",
     viewMenu: "Как это работает",
@@ -21,7 +21,7 @@ export const translations = {
     qualityGuarantee: "Гарантия качества",
 
     // Target audience
-    targetTitle: "Кому подходит FoodLab?",
+    targetTitle: "Кому подходит FoodLapp?",
     targetSubtitle: "Мы создали решение для каждого, кто ценит время и здоровое питание",
     targetStudentTitle: "Студенты",
     targetStudentDesc: "Доступное и полезное питание рядом с кампусом. Экономьте время и деньги с ежемесячной подпиской.",
@@ -32,7 +32,7 @@ export const translations = {
 
     // News Banner
     newsTag: "Новость",
-    newsTitle: "FoodLab Astamat",
+    newsTitle: "FoodLapp Astamat",
     newsSubtitle: "Умные постаматы для выдачи заказов",
     newsDescription: "Забирайте ваши заказы быстро и без очередей. Удобный пункт самовывоза на территории кампуса -- работает 24/7. Скоро в каждом университете!",
     newsLearnMore: "Узнать подробнее",
@@ -70,12 +70,12 @@ export const translations = {
     faq2: "Можно ли использовать несколько раз в день?",
     faq2a: "Обычно 1 раз в день, в зависимости от пакета.",
     faq3: "В каких столовых действует?",
-    faq3a: "Во всех столовых-партнёрах FoodLab.",
+    faq3a: "Во всех столовых-партнёрах FoodLapp.",
 
     // CTA
     ctaTitle: "Готовы начать питаться лучше?",
-    ctaSubtitle: "Присоединяйтесь к тысячам студентов, которые экономят время и питаются лучше с FoodLab",
-    startNow: "Начать сейчас",
+    ctaSubtitle: "Присоединяйтесь к тысячам студентов, которые экономят время и питаются лучше с FoodLapp",
+    startNow: "Поддержка",
 
     // Footer
     quickLinks: "Быстрые ссылки",
@@ -95,7 +95,7 @@ export const translations = {
 
     // Hero
     heroTag: "Жаңа форматтағы тамақтану",
-    heroTitle: "Foodlab бұл",
+    heroTitle: "FoodLapp бұл",
     heroTitle2: "Абонемент арқылы тамақтану",
     heroSubtitle: "Студенттер мен жұмысшылар үшін жақын маңдағы асханалардан ай бойы кезексіз, ыңғайлы әрі арзан тамақтану",
     choosePlan: "Пакет таңдау",
@@ -105,7 +105,7 @@ export const translations = {
     qualityGuarantee: "Сапа кепілдігі",
 
     // Target audience
-    targetTitle: "FoodLab кімге арналған?",
+    targetTitle: "FoodLapp кімге арналған?",
     targetSubtitle: "Уақытын бағалайтын және дұрыс тамақтануды қалайтын әрбір адамға арнадық",
     targetStudentTitle: "Студенттер",
     targetStudentDesc: "Кампустың жанында қолжетімді және пайдалы тамақтану. Ай сайынғы жазылыммен уақыт пен ақша үнемдеңіз.",
@@ -116,7 +116,7 @@ export const translations = {
 
     // News Banner
     newsTag: "Жаңалық",
-    newsTitle: "FoodLab Astamat",
+    newsTitle: "FoodLapp Astamat",
     newsSubtitle: "Тапсырыстарды беруге арналған ақылды постаматтар",
     newsDescription: "Тапсырыстарыңызды тез және кезексіз алыңыз. Кампус аумағындағы ыңғайлы өзіне-өзі қызмет көрсету орны -- тәулік бойы жұмыс істейді. Жақында әр университетте!",
     newsLearnMore: "Толығырақ білу",
@@ -154,12 +154,12 @@ export const translations = {
     faq2: "Бір күнде бірнеше рет қолдануға болады ма?",
     faq2a: "Әдетте күніне 1 рет, бұл пакетке байланысты.",
     faq3: "Қай асханаларда жарамды?",
-    faq3a: "Барлық FoodLab серіктес асханаларында.",
+    faq3a: "Барлық FoodLapp серіктес асханаларында.",
 
     // CTA
     ctaTitle: "Жақсырақ тамақтануға дайынсыз ба?",
-    ctaSubtitle: "FoodLab арқылы уақыт үнемдеп, жақсы тамақтанатын мыңдаған студенттерге қосылыңыз",
-    startNow: "Қазір бастау",
+    ctaSubtitle: "FoodLapp арқылы уақыт үнемдеп, жақсы тамақтанатын мыңдаған студенттерге қосылыңыз",
+    startNow: "Қолдау",
 
     // Footer
     quickLinks: "Жылдам сілтемелер",

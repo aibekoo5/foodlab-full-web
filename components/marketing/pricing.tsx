@@ -16,7 +16,7 @@ const plans = [
     price: 15999,
     meals: 15,
     features: [
-      { ru: "Аптасына 3-4 рет тамақтану", kz: "Аптасына 3-4 рет тамақтану" },
+      { ru: "Питание 3-4 раза в неделю", kz: "Аптасына 3-4 рет тамақтану" },
       { ru: "Сбалансированное меню", kz: "Теңгерімді мәзір" },
       { ru: "Завтрак + обед на выбор", kz: "Таңғы ас + түскі ас" },
       { ru: "Для студентов", kz: "Студенттерге тиімді" },
@@ -115,7 +115,7 @@ export function Pricing() {
                     </li>
                   ))}
                 </ul>
-                <Link href="https://docs.google.com/forms/d/e/1FAIpQLScMKp91i6JogNAzSl7Za7QH9igVreq4kfooKIi9vw4yzn2LBg/viewform" target="_blank">
+                <Link href="/coming-soon" target="_blank">
                   <Button
                     className={`w-full rounded-xl h-12 font-medium transition-all duration-300 ${
                       plan.popular
