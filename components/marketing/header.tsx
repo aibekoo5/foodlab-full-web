@@ -6,6 +6,7 @@ import { Menu, X, ChevronDown } from "lucide-react"
 import { useState, useEffect } from "react"
 import { useLanguage } from "@/lib/language-context"
 import { translations } from "@/lib/i18n"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -62,6 +63,7 @@ export function Header() {
           </nav>
 
           <div className="flex items-center gap-3">
+            <ThemeToggle />
             <div className="relative">
               <button
                 onClick={() => setLanguageDropdownOpen(!languageDropdownOpen)}

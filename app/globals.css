@@ -26,6 +26,29 @@
   --radius: 0.75rem;
 }
 
+.dark {
+  --background: #0f0f14;
+  --foreground: #f8f7fc;
+  --card: #1a1625;
+  --card-foreground: #f8f7fc;
+  --popover: #1a1625;
+  --popover-foreground: #f8f7fc;
+  --primary: #9473ff;
+  --primary-foreground: #ffffff;
+  --secondary: #2d2840;
+  --secondary-foreground: #f4f1fe;
+  --muted: #2d2840;
+  --muted-foreground: #a8a3c1;
+  --accent: #2d2840;
+  --accent-foreground: #f4f1fe;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --border: #2d2840;
+  --input: #2d2840;
+  --ring: #9473ff;
+  --radius: 0.75rem;
+}
+
 @theme inline {
   --font-sans: 'Geist', 'Geist Fallback', system-ui, sans-serif;
   --font-mono: 'Geist Mono', 'Geist Mono Fallback', monospace;
