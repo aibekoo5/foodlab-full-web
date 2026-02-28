@@ -174,3 +174,5 @@ export const translations = {
 export function getTranslation(lang: Language, key: keyof typeof translations.ru): string {
   return translations[lang][key] || translations.ru[key]
 }
+
+//sfdf
