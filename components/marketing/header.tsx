@@ -116,7 +116,11 @@ export function Header() {
             mobileMenuOpen ? "max-h-96 opacity-100 pb-6" : "max-h-0 opacity-0"
           }`}
         >
-          <nav className="flex flex-col gap-1 pt-4 border-t border-border">
+          <nav className={`flex flex-col gap-1 pt-4 border-t border-border ${
+            scrolled 
+              ? "bg-background" 
+              : "bg-background/95 backdrop-blur-xl"
+          } rounded-t-2xl -mx-4 px-4`}>
             {navLinks.map((link) => (
               <Link
                 key={link.href}
